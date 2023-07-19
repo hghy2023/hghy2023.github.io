@@ -29,6 +29,7 @@ var swiper = new Swiper(".mySwiper", {
   },
   //freeMode: true,
   slideToClickedSlide: true,
+  zoom: true,
 });
 
 const number = Array.from({ length: 15 }, (v, i) => i + 1);
