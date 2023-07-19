@@ -3,8 +3,16 @@
 @font-face {
   font-family: "Gowun Batang";
   src: url("https://fonts.gstatic.com/s/gowunbatang/v7/ijwSs5nhRMIjYsdSgcMa3wRhWbH4yuF3PCOgtbXrpkZDCDpAGUeXohsoWQ.119.woff2")
-    format("woff2");
+      format("woff2"),
+    url("https://fonts.gstatic.com/s/gowunbatang/v7/ijwSs5nhRMIjYsdSgcMa3wRhWbH4yuF3PCOgtbXrpkZDCDpAGUeXohsoWQ.0.woff2")
+      format("woff2");
   font-style: normal;
+  unicode-range: U+20-40, U+5B-5F, U+7B-7D, U+A0-A1, U+A7, U+A9, U+B6-B7, U+BF,
+    U+2010-2011, U+2014-2015, U+2018-2019, U+201C-201D, U+2020-2021, U+2025-2026,
+    U+2030, U+2032-2033, U+203B, U+203E, U+20AC, U+3001-3003, U+3008-3011,
+    U+3014-3015, U+301C, U+30FB, U+3131, U+3134, U+3137, U+3139, U+3141-3142,
+    U+3145, U+3147-3148, U+314A-314E, U+AC00-D7A3, U+FF01-FF03, U+FF05-FF0A,
+    U+FF0C-FF0F, U+FF1A-FF1B, U+FF1F-FF20, U+FF3B-FF3D, U+FF3F, U+FF5B, U+FF5D;
 }
 @font-face {
   font-family: "Gowun Batang";
