@@ -2,10 +2,8 @@
 
 @font-face {
   font-family: "Gowun Batang";
-  src: url("https://fonts.gstatic.com/s/gowunbatang/v7/ijwSs5nhRMIjYsdSgcMa3wRhWbH4yuF3PCOgtbXrpkZDCDpAGUeXohsoWQ.119.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/gowunbatang/v7/ijwSs5nhRMIjYsdSgcMa3wRhWbH4yuF3PCOgtbXrpkZDCDpAGUeXohsoWQ.0.woff2")
-      format("woff2");
+  src: url("https://fonts.gstatic.com/s/gowunbatang/v7/ijwSs5nhRMIjYsdSgcMa3wRhWbH4yuF3PCOgtbXrpkZDCDpAGUeXohsoWQ.0.woff2")
+    format("woff2");
   font-style: normal;
   unicode-range: U+20-40, U+5B-5F, U+7B-7D, U+A0-A1, U+A7, U+A9, U+B6-B7, U+BF,
     U+2010-2011, U+2014-2015, U+2018-2019, U+201C-201D, U+2020-2021, U+2025-2026,
