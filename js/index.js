@@ -62,3 +62,29 @@ const blarray = Array.from(bullet);
 blarray.forEach(
   (bl, i) => (bl.style.backgroundImage = `url("../img/pic${number[i]}.jpg")`)
 );
+
+//dday
+const ddayCount = document.querySelector(".dday-count");
+function getTime() {
+  const date = new Date();
+  const dday = new Date("September 30, 2023 12:30:00");
+  const cal = dday - date;
+  const secondsInMs = Math.floor(cal / 1000);
+  const minutesInMs = Math.floor(secondsInMs / 60);
+  const hoursInMs = Math.floor(minutesInMs / 60);
+  const days = Math.floor(hoursInMs / 24);
+  const hours = hoursInMs % 24;
+  const minutes = minutesInMs % 60;
+  const seconds = secondsInMs % 60;
+  const daysStr = `${days < 10 ? `0${days}` : days} days`;
+  const hoursStr = `${hours < 10 ? `0${hours}` : hours}h`;
+  const minutesStr = `${minutes < 10 ? `0${minutes}` : minutes}m`;
+  const secondsStr = `${seconds < 10 ? `0${seconds}` : seconds}s`;
+
+  days < 0
+    ? (ddayCount.innerHTML = "0 days 00h 00m 00s")
+    : (ddayCount.innerHTML = `${daysStr} ${hoursStr} ${minutesStr} ${secondsStr}`);
+}
+
+getTime();
+setInterval(getTime, 1000);

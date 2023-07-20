@@ -109,12 +109,13 @@ h3 {
 .wa-info,
 .wm-en p,
 .directory p,
+.dday-count,
 #rsvp-en {
   font-size: 15px;
   font-weight: 600;
 }
 #rsvp-en {
-  margin-top: -10px;
+  margin-top: 0;
 }
 .area-middle img {
   max-width: 100%;
