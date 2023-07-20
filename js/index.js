@@ -27,18 +27,13 @@ var swiper = new Swiper(".mySwiper", {
   },
   //freeMode: true,
   slideToClickedSlide: true,
-  zoom: {
-    maxRatio: 3,
-  },
 });
 
 var modal = document.getElementById("myModal");
 var modalImg = document.getElementById("img01");
 var span = document.getElementsByClassName("close")[0];
 
-let currentImg = document.querySelector(
-  ".swiper-slide-active .swiper-zoom-container img"
-);
+let currentImg = document.querySelector(".swiper-slide-active img");
 
 function modalfunc() {
   var currentSrc = currentImg.getAttribute("src");
@@ -51,9 +46,7 @@ document
   .addEventListener("click", modalfunc);
 
 swiper.on("transitionEnd", function () {
-  currentImg = document.querySelector(
-    ".swiper-slide-active .swiper-zoom-container img"
-  );
+  currentImg = document.querySelector(".swiper-slide-active img");
   currentImg.addEventListener("click", modalfunc);
 });
 
