@@ -54,6 +54,13 @@ span.onclick = function () {
   modal.style.display = "none";
 };
 
+modal.addEventListener("click", (e) => {
+  const evTarget = e.target;
+  if (evTarget.classList.contains("modal")) {
+    modal.style.display = "none";
+  }
+});
+
 // Thumbnail
 const number = Array.from({ length: 15 }, (v, i) => i + 1);
 const bullet = document.getElementsByClassName("swiper-pagination-bullet");
