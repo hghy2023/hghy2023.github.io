@@ -146,7 +146,7 @@ h3 {
   font-family: var(--rouge);
 }
 .directory a,
-#calender_btn,
+#calendar_btn,
 #rsvp_btn {
   /* CSS */
   align-items: center;
@@ -177,24 +177,24 @@ h3 {
   text-decoration: none;
 }
 .directory a:active,
-#calender_btn:active,
+#calendar_btn:active,
 #rsvp_btn:active {
   border-color: #4a4a4a;
   outline: 0;
 }
 .directory a:focus,
-#calender_btn:focus,
+#calendar_btn:focus,
 #rsvp_btn:focus {
   border-color: #485fc7;
   outline: 0;
 }
 .directory a:hover,
-#calender_btn:hover,
+#calendar_btn:hover,
 #rsvp_btn:hover {
   border-color: var(--brown);
 }
 .directory a:focus:not(:active),
-#calender_btn:focus:not(:active),
+#calendar_btn:focus:not(:active),
 #rsvp_btn:focus:not(:active) {
   box-shadow: rgba(72, 95, 199, 0.25) 0 0 0 0.125em;
 }

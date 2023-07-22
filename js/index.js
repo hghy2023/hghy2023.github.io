@@ -1,7 +1,7 @@
-const calender = document.querySelector("#calender_btn");
+const calendar = document.querySelector("#calendar_btn");
 const rsvp = document.querySelector("#rsvp_btn");
 
-function addToCalender() {
+function addToCalendar() {
   window.open(
     "https://www.google.com/calendar/render?action=TEMPLATE&text=HG%26HY+Wedding+Lunch&location=Empress&dates=20230930T040000Z%2F20230930T070000Z"
   );
@@ -9,7 +9,7 @@ function addToCalender() {
 function onRsvpBtn() {
   window.open("https://forms.gle/LroMmbAS8vU8fphu6");
 }
-calender.addEventListener("click", addToCalender);
+calendar.addEventListener("click", addToCalendar);
 rsvp.addEventListener("click", onRsvpBtn);
 
 // swiper
